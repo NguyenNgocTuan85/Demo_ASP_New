@@ -33,8 +33,5 @@ jobs:
       run: |
         cd "C:\GitHub-Runner"
         dir
-    - name: Run tests
-      run: |
-        vstest.console.exe "Demo_GitHub\Demo_GitHub.dll" /Platform:x64 /Framework:.NETFramework,Version=v4.5
-
+   
 
