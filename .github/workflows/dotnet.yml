@@ -33,5 +33,10 @@ jobs:
       run: |
         cd "C:\GitHub-Runner"
         dir
+    - name: Upload build artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: C:\GitHub-Runner
    
 
